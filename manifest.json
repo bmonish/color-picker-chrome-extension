@@ -4,12 +4,7 @@
   "version": "1.0",
   "description": "Pick background and text colors and get their hex codes.",
   "permissions": ["activeTab"],
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }
